@@ -1,0 +1,149 @@
+﻿<Window x:Class="Diagnosis.NuevoCamion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diagnosis"
+        mc:Ignorable="d"
+        Title="Nuevo Camión" Height="800" Width="1000" MinHeight="800" MinWidth="1000" Background="#6495ED"
+        ShowInTaskbar="True"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="textoReparacion">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+        <Style TargetType="DockPanel" x:Key="fondoReparacion">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Terminada}" Value="true">
+                    <Setter Property="Background" Value="#E5E5E5"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=Terminada}" Value="false">
+                    <Setter Property="Background" Value="White"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button" x:Key="crearButton">
+            <Setter Property="IsEnabled" Value="True" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Text.Length, ElementName=matricula}" Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Text.Length, ElementName=marca}" Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Text.Length, ElementName=modelo}" Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Text.Length, ElementName=idCliente}" Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button" x:Key="modificarEliminarButton">
+            <Setter Property="IsEnabled" Value="True"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CamionSeleccionado}" Value="{x:Null}">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <DataTemplate x:Key="plantillaCamion">
+            <Border BorderThickness="2" BorderBrush="Gray" Margin="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Style="{StaticResource textoReparacion}" Text="{Binding Path=Id}" Margin="20,0,10,0"/>
+                    <TextBlock Grid.Column="1" Style="{StaticResource textoReparacion}" Text="{Binding Path=Matricula}" Margin="50,0,0,0"/>
+                    <TextBlock Grid.Column="2" Style="{StaticResource textoReparacion}" Text="{Binding Path=Marca}" Margin="90,0,10,0"/>
+                    <TextBlock Grid.Column="3" Style="{StaticResource textoReparacion}" Text="{Binding Path=Modelo}" Margin="110,0,0,0"/>
+                    <TextBlock Grid.Column="4" Style="{StaticResource textoReparacion}" Text="{Binding Path=IdCliente.Id}" Margin="60,0,0,0"/>
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel Background="#6495ED" Margin="20,10,20,10" LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock FontSize="25" Foreground="#FF060E88" FontFamily="Arial Black" HorizontalAlignment="Center">CAMIONES</TextBlock>
+            <TextBlock Margin="2,0,0,0" FontSize="15">Matrícula:</TextBlock>
+            <TextBox x:Name="matricula" Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=NuevoCamion.Matricula, UpdateSourceTrigger=PropertyChanged}" CharacterCasing="Upper"></TextBox>
+            <TextBlock Margin="2,10,0,0" FontSize="15">Marca:</TextBlock>
+            <TextBox x:Name="marca" Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=NuevoCamion.Marca, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <TextBlock Margin="2,10,0,0" FontSize="15">Modelo:</TextBlock>
+            <TextBox x:Name="modelo" Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=NuevoCamion.Modelo, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <TextBlock Margin="2,10,0,0" FontSize="15">ID Cliente</TextBlock>
+            <TextBox x:Name="idCliente" Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=IdClienteBuscar, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+
+
+
+            <StackPanel Orientation="Horizontal" Margin="40,30,0,0">
+                <Button x:Name="botonAceptar" Template="{DynamicResource ButtonTemplate1}" Width="100" Height="30" Margin="5,0,30,0" Command="{Binding Path=CrearCamionCommand}" Style="{StaticResource crearButton}" ToolTip="Confirmar creación del camión.">Crear</Button>
+                <Button Template="{DynamicResource ButtonTemplate1}" Width="100" Height="30" Margin="30,0,0,0" IsCancel="True" Click="CancelarClick" ToolTip="Cancelar creación y volver a la pantalla principal.">Cancelar</Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Top" Margin="0,30,0,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="10,0,0,0" FontSize="20" FontWeight="Bold">Listado camiones:</TextBlock>
+
+
+            </StackPanel>
+            <Border BorderThickness="3" BorderBrush="#FF060E88" CornerRadius="2">
+                <DockPanel Style="{StaticResource fondoReparacion}" LastChildFill="True" Background="White" >
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Margin="10,5,30,2"  ToolTip="ID del camión">
+                        <Image Source="/Resources/id.png" Height="25" Margin="5" ></Image>
+                        <TextBlock Style="{StaticResource textoReparacion}" >ID</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,0,120,0">
+                        <Image Source="/Resources/id.png" Height="25" Margin="5" ></Image>
+                        <TextBlock Style="{StaticResource textoReparacion}" ToolTip="Id del dueño del camión" Margin="0,10,0,0">ID cliente</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  ToolTip="Matrícula del camión">
+                        <Image Source="/Resources/camion.png" Height="25" Margin="5" ></Image>
+                        <TextBlock Style="{StaticResource textoReparacion}" Margin="0,10,0,0">Matricula</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  ToolTip="Marca del camión" Margin="155,0,0,0">
+                        <Image Source="/Resources/camion.png" Height="25" Margin="5" ></Image>
+                        <TextBlock Style="{StaticResource textoReparacion}" Margin="0,10,0,0" >Marca</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  ToolTip="Modelo del camión" Margin="155,0,0,0">
+                        <Image Source="/Resources/camion.png" Height="25" Margin="5" ></Image>
+                        <TextBlock Style="{StaticResource textoReparacion}" Margin="0,10,0,0" >Modelo</TextBlock>
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+        </StackPanel>
+        <StackPanel>
+            <Border BorderThickness="3" BorderBrush="#FF060E88" CornerRadius="2" Margin="0,0,0,10" Height="250">
+                <ListBox ItemContainerStyle="{DynamicResource ResourceKey=ListBoxItemStyle}" ItemsSource="{Binding Path=ListaCamiones}"
+                     ItemTemplate="{StaticResource plantillaCamion}"
+                     SelectedItem="{Binding Path=CamionSeleccionado}" 
+                     HorizontalContentAlignment="Stretch"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto">
+                </ListBox>
+            </Border>
+            <TextBlock FontSize="20" Margin="10,0,0,0" FontWeight="Bold">Búsqueda por matricula:</TextBlock>
+            <DockPanel DockPanel.Dock="Top" Margin="0,10,0,0">
+                <TextBox Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=MatriculaBusqueda}" Width="150" Height="30" ></TextBox>
+                <Image Source="/Resources/buscar.png" Height="30" HorizontalAlignment="Right" Margin="10,0,0,0"></Image>
+                <Button Template="{DynamicResource ButtonTemplate1}" Command="{Binding Path=BuscarCamionCommand}" Width="60" Height="30" Margin="5,0,0,0" ToolTip="Buscar matrícula introducida.">Buscar</Button>
+
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right" Margin="380,0,0,0">
+                    <Image Source="/Resources/editar.png" Height="27"  ></Image>
+                    <Button Template="{DynamicResource ButtonTemplate1}" Style="{StaticResource modificarEliminarButton}" Command="{Binding Path=AbrirVentanaModificarCamionCommand}" Width="90" Height="30" Margin="2,0,0,0" ToolTip="Modificar camión seleccionado." >Modificar</Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right">
+                    <Image Source="/Resources/eliminar.png" Height="25"></Image>
+                    <Button Template="{DynamicResource ButtonTemplate1}" Command="{Binding Path=EliminarCamionCommand}" Width="90" Height="30" Margin="5,0,0,0" Style="{StaticResource modificarEliminarButton}" ToolTip="Eliminar camión seleccionado.">Eliminar</Button>
+                </StackPanel>
+            </DockPanel>
+
+        </StackPanel>
+    </DockPanel>
+</Window>

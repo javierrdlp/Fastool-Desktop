@@ -1,0 +1,38 @@
+﻿<Window x:Class="Diagnosis.CrearPDF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diagnosis"
+        mc:Ignorable="d"
+        Title="Creación de Resumen" Height="500" Width="600" Background="#6495ED"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+    <DockPanel LastChildFill="True" Background="#6495ED" Margin="20,10,20,10">
+        <StackPanel DockPanel.Dock="Top" Margin="0,0,0,5">
+            <TextBlock Margin="10" FontSize="25" Foreground="#FF060E88" FontFamily="Arial Black" HorizontalAlignment="Center" FontWeight="Bold" Text="RESUMEN"></TextBlock>
+            <TextBlock Margin="2,0,0,0" FontSize="15">Matrícula:</TextBlock>
+            <TextBox x:Name="modelo" Style="{DynamicResource TextBoxLectura}" Width="150" HorizontalAlignment="Left" Text="{Binding Path=ReparacionSeleccionada.Matricula.Matricula, UpdateSourceTrigger=Explicit}"></TextBox>
+            <TextBlock Margin="2,10,0,0" FontSize="15">Descripción:</TextBlock>
+            <TextBox x:Name="marca" Margin="0,0,0,10" Style="{DynamicResource TextBoxLectura}" Text="{Binding Path=ReparacionSeleccionada.Descripcion, UpdateSourceTrigger=Explicit}"></TextBox>
+
+            <TextBlock Margin="2,10,0,0" FontSize="15">Observaciones:</TextBlock>
+           
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,30,0,20" DockPanel.Dock="Bottom">
+
+            <Button x:Name="botonModificar" Template="{DynamicResource ButtonTemplate1}" Command="{Binding Path=CrearResumenCommand}" Width="100" Height="30" Margin="5,0,30,0">Aceptar</Button>
+            <Button Template="{DynamicResource ButtonTemplate1}" Width="100" Height="30" Margin="30,0,0,0" IsCancel="True">Cancelar</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,10" DockPanel.Dock="Bottom">
+            <TextBox Width="430" Style="{DynamicResource TextBoxStyle1}" FontSize="14" Height="20" Text="{Binding DatosPDF.Ruta, Mode=TwoWay}" IsReadOnly="True" Margin="0,0,10,0"/>
+            <Button Command="{Binding BuscadorRutaCommand}" Width="100" Height="30" Template="{DynamicResource ButtonTemplate1}">Buscar...</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+            <TextBlock x:Name="contador" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top"  FontSize="14" />
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14">/140</TextBlock>            
+        </StackPanel>
+        <TextBox x:Name="cajaTexto" Style="{DynamicResource TextBoxStyle1}" TextWrapping="Wrap" AcceptsReturn="True" PreviewKeyDown="TextBox_PreviewKeyDown" FontSize="14" MaxLength="140" IsReadOnly ="False" Text="{Binding Path=Observaciones}" ></TextBox>
+    </DockPanel>
+</Window>
+

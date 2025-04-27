@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ayuda.png" />
+    <None Remove="Resources\Ayuda_FasTool.chm" />
+    <None Remove="Resources\buscar.png" />
+    <None Remove="Resources\camion.png" />
+    <None Remove="Resources\cif.png" />
+    <None Remove="Resources\crearcamion.png" />
+    <None Remove="Resources\descripcion.png" />
+    <None Remove="Resources\editar.png" />
+    <None Remove="Resources\eliminar.png" />
+    <None Remove="Resources\email.png" />
+    <None Remove="Resources\enCurso.png" />
+    <None Remove="Resources\fecha.png" />
+    <None Remove="Resources\id.png" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\logofondo.png" />
+    <None Remove="Resources\newuser.png" />
+    <None Remove="Resources\nombre.png" />
+    <None Remove="Resources\pdf.png" />
+    <None Remove="Resources\terminada.png" />
+    <None Remove="Resources\tiempo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Ayuda_FasTool.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="MySqlConnector" Version="2.3.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QuestPDF" Version="2024.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\ayuda.png" />
+    <Resource Include="Resources\buscar.png" />
+    <Resource Include="Resources\camion.png" />
+    <Resource Include="Resources\cif.png" />
+    <Resource Include="Resources\crearcamion.png" />
+    <Resource Include="Resources\descripcion.png" />
+    <Resource Include="Resources\editar.png" />
+    <Resource Include="Resources\eliminar.png" />
+    <Resource Include="Resources\email.png" />
+    <Resource Include="Resources\enCurso.png" />
+    <Resource Include="Resources\logofondo.png" />
+    <Resource Include="Resources\pdf.png" />
+    <Resource Include="Resources\fecha.png" />
+    <Resource Include="Resources\id.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\newuser.png" />
+    <Resource Include="Resources\nombre.png" />
+    <Resource Include="Resources\terminada.png" />
+    <Resource Include="Resources\tiempo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

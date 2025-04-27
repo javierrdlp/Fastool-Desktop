@@ -1,0 +1,69 @@
+﻿<Window x:Class="Diagnosis.NuevaReparacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diagnosis"
+        mc:Ignorable="d"
+        Title="Nueva Reparación" Height="300" Width="1000" MinHeight="300" MinWidth="1000" Background="#6495ED"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="textoReparacion">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="crearButton">
+            <Setter Property="IsEnabled" Value="True"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Descripcion}" Value="{x:Null}">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="DockPanel" x:Key="fondoReparacion">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Terminada}" Value="true">
+                    <Setter Property="Background" Value="#E5E5E5"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=Terminada}" Value="false">
+                    <Setter Property="Background" Value="White"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <DataTemplate x:Key="plantillaCliente">
+            <Border BorderThickness="2" BorderBrush="Gray" Margin="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Style="{StaticResource textoReparacion}" Text="{Binding Path=IdCliente}" Margin="20,0,10,0"/>
+                    <TextBlock Grid.Column="1" Style="{StaticResource textoReparacion}" Text="{Binding Path=Nombre}" Margin="40,0,10,0"/>
+                    <TextBlock Grid.Column="2" Style="{StaticResource textoReparacion}" Text="{Binding Path=Cif}" Margin="0,0,10,0" HorizontalAlignment="Left"/>
+                    <TextBlock Grid.Column="3" Style="{StaticResource textoReparacion}" Text="{Binding Path=Email}" Margin="0,0,0,0"/>
+
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel Background="#6495ED" Margin="20,10,20,10" LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock FontSize="25" Foreground="#FF060E88" FontFamily="Arial Black" HorizontalAlignment="Center">REPARACIÓN</TextBlock>
+            <TextBlock Margin="2,10,0,0" FontSize="15">Hora de inicio:</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="horaInicio" Style="{DynamicResource TextBoxStyle1}" Width="50" Text="{Binding Path=HoraInicio, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left"></TextBox>
+                <TextBlock Margin="5,1,0,0" Foreground="DarkSlateGray" FontSize="15"> Formato "HH:mm" - Si no introduce hora de inicio se registrará la hora actual.</TextBlock>
+            </StackPanel>          
+            <TextBlock Margin="2,0,0,0" FontSize="15">Descripción:</TextBlock>
+            <TextBox x:Name="descripcion" Style="{DynamicResource TextBoxStyle1}" Text="{Binding Path=Descripcion, UpdateSourceTrigger=PropertyChanged}"></TextBox>   
+
+            <StackPanel Orientation="Horizontal" Margin="40,30,0,0" HorizontalAlignment="Center">
+                <Button x:Name="botonCrear" Template="{DynamicResource ButtonTemplate1}" Style="{StaticResource crearButton}" Width="100" Height="30" Margin="5,0,30,0" Command="{Binding Path=CrearReparacionCommand}">Crear</Button>
+                <Button Template="{DynamicResource ButtonTemplate1}" Width="100" Height="30" Margin="30,0,0,0" IsCancel="True">Cancelar</Button>
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+</Window>

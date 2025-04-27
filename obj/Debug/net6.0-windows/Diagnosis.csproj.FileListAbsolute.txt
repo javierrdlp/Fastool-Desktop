@@ -1,0 +1,356 @@
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.exe
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.deps.json
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.runtimeconfig.json
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_Content.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.lref
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.g.resources
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.Properties.Resources.resources
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.GenerateResource.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfoInputs.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfo.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CoreCompileInputs.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\refint\Diagnosis.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.genruntimeconfig.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\ref\Diagnosis.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\App.baml
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.AssemblyReference.cache
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Inicio.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Inicio.baml
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CopyComplete
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.baml
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.baml
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.baml
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.baml
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.baml
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\LatoFont\OFL.txt
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.g.cs
+C:\Users\urulo\source\repos\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.baml
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Resources\Ayuda_FasTool.chm
+C:\Users\urulo\source\repos\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll.config
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.AssemblyReference.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Inicio.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_Content.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.lref
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\refint\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\LatoFont\OFL.txt
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.exe
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Resources\Ayuda_FasTool.chm
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll.config
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.deps.json
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.runtimeconfig.json
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\App.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Inicio.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.g.resources
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.Properties.Resources.resources
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.GenerateResource.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfoInputs.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfo.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CoreCompileInputs.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CopyComplete
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.genruntimeconfig.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\Diagnosis\obj\Debug\net6.0-windows\ref\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\OFL.txt
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.exe
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Resources\Ayuda_FasTool.chm
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll.config
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.deps.json
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.runtimeconfig.json
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.AssemblyReference.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Inicio.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_Content.g.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.lref
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\App.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Inicio.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.baml
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.g.resources
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.Properties.Resources.resources
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.GenerateResource.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfoInputs.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfo.cs
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CoreCompileInputs.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CopyComplete
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\refint\Diagnosis.dll
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.genruntimeconfig.cache
+C:\Users\urulo\Desktop\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ref\Diagnosis.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\LatoFont\OFL.txt
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.exe
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Resources\Ayuda_FasTool.chm
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll.config
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.deps.json
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.runtimeconfig.json
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\QuestPDF.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.AssemblyReference.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Inicio.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_Content.g.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis_MarkupCompile.lref
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\App.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\CrearPDF.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Inicio.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCamion.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ModificarCliente.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevaReparacion.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCamion.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\NuevoCliente.baml
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.g.resources
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.Properties.Resources.resources
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.GenerateResource.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfoInputs.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.AssemblyInfo.cs
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CoreCompileInputs.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.csproj.CopyComplete
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\refint\Diagnosis.dll
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.pdb
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\Diagnosis.genruntimeconfig.cache
+C:\Users\urulo\Desktop\Escritorio\DOCUMENTACION\FasTooL Sin Logo\Diagnosis\obj\Debug\net6.0-windows\ref\Diagnosis.dll
