@@ -1,58 +1,36 @@
-# Windows Installer files
+## Archivos de usuario y de entorno de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+## Archivos de build
+bin/
+obj/
+[Dd]ebug*/
+[Rr]elease*/
+artifacts/
+dist/
+deploy/
+
+## Archivos de lock de .NET antiguos
+project.lock.json
+project.fragment.lock.json
+
+## Archivos temporales de instalación
 *.cab
 *.msi
 *.msm
 *.msp
-
-# Windows Installer files
 *.appx
 *.appxbundle
 
-# User-specific files
-*.user
-*.userosscache
-*.suo
-*.userprefs
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Dd]ist/
-[Dd]eploy/
-[Dd]ebug/
-[Dd]eploy/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Recycle Bin used on file shares
+## Papelera de reciclaje en red
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+## Archivos de log u otros generados
+UpgradeLog*.htm
+*.log
 
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# User-specific files
-*.user
-*.userosscache
-*.suo
-*.userprefs
-
-# Ignorar archivos de Visual Studio
-.vs/
