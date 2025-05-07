@@ -13,7 +13,7 @@ namespace Diagnosis.Servicios
 
     public class NuevoClienteMessage : RequestMessage<Cliente> { }  
 
-    public class CifBucarMessage : RequestMessage<String> { }
+    public class CifBucarMessage : RequestMessage<string> { }
 
     public class IdClienteBuscarMessage : RequestMessage <int?> { }
     
@@ -21,7 +21,7 @@ namespace Diagnosis.Servicios
 
     public class NuevoCamionMessage : RequestMessage<Camion> { }
 
-    public class MatriculaBuscarMessage : RequestMessage<String> { }
+    public class MatriculaBuscarMessage : RequestMessage<string> { }
 
     public class ReparacionSeleccionadaMessage : RequestMessage<Reparacion> { }  
     

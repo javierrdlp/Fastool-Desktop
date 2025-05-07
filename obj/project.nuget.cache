@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7yJOBUjfocO/woiDMzgLccVpMiiJfwZMlBGm0tStCtr7afa9Xgh/h+I2YTTu8D11gfwzPXNM8jAOye6xaIlqtg==",
+  "dgSpecHash": "rirU77AIBWsdLJldMN2ZU6I0TCTWBV+NFFR5BiqqBveoYXmmYKL58T13wcvh1+mFIoV8WzOUPkowHJMubqejvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\urulo\\Desktop\\Escritorio\\DOCUMENTACION\\FasTooL Sin Logo\\Diagnosis\\Diagnosis.csproj",
+  "projectFilePath": "C:\\Users\\urulo\\Desktop\\Diagnosis\\Diagnosis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\urulo\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\urulo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",

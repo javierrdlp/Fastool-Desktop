@@ -121,6 +121,14 @@ namespace Diagnosis.Modelos
 
             });
 
+            WeakReferenceMessenger.Default.Register<InicioVM, MatriculaBuscarMessage>(this, (r, m) =>
+            {
+                if (!m.HasReceivedResponse)
+                {
+                    m.Reply(MatriculaBusqueda);
+                }
+            });
+
             DuracionEnHoras = null;
 
         }
@@ -156,14 +164,14 @@ namespace Diagnosis.Modelos
                 try
                 {
                     // Realizar la solicitud para buscar el camión por matrícula
-                    CamionEncontrado = await servicioCamionAPI.BuscarCamionPorMatricula(MatriculaBusqueda);
+                    CamionEncontrado = await servicioCamionAPI.BuscarCamionPorMatricula();
 
 
                     // Verificar si se encontró un camión
                     if (camionEncontrado != null)
                     {
                         // Obtener la lista de reparaciones
-                        var reparaciones = await servicioReparacionAPI.ReparacionesPorMatricula(MatriculaBusqueda);
+                        var reparaciones = await servicioReparacionAPI.ReparacionesPorMatricula();
 
                         // Ordenar la lista por fecha de inicio descendente
                         ListaReparaciones = new ObservableCollection<Reparacion>(reparaciones.OrderByDescending(r => r.HoraInicio));
@@ -208,6 +216,7 @@ namespace Diagnosis.Modelos
                     if (ReparacionSeleccionada.HoraFin < ReparacionSeleccionada.HoraInicio)
                     {
                         MessageBox.Show("La hora de fin no puede ser anterior a la hora de inicio.", "Advertencia", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        BuscarCamionReparacionPorMatricula();
                         return;
                     }
 
@@ -215,6 +224,7 @@ namespace Diagnosis.Modelos
                     if (ReparacionSeleccionada.HoraFin.Value.Date > ReparacionSeleccionada.HoraInicio.Date)
                     {
                         MessageBox.Show("La hora de fin no puede ser de un día diferente al de inicio.", "Advertencia", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        BuscarCamionReparacionPorMatricula();
                         return;
                     }
                 }

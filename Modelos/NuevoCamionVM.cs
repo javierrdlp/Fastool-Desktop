@@ -69,8 +69,8 @@ namespace Diagnosis.Modelos
             servicioCamionAPI = new ServicioCamionAPI();
             servicioClienteAPI = new ServicioClienteAPI();
             ListaCamiones = new ObservableCollection<Camion>();
-            NuevoCamion = new Camion();    
-            
+            NuevoCamion = new Camion();
+
             CargarCamiones();
             CrearCamionCommand = new RelayCommand(async () => await AgregarCamion());
             EliminarCamionCommand = new RelayCommand(async () => await EliminarCamion());
@@ -112,7 +112,7 @@ namespace Diagnosis.Modelos
         public void AbrirVentanaModificarCamion()
         {
             servicioNavegacion.AbrirVentanaModificarCamion();
-            CargarCamiones() ;
+            CargarCamiones();
 
         }
 
@@ -125,7 +125,8 @@ namespace Diagnosis.Modelos
         {
             // Verificar si la matrícula ya existe en la lista actual de camiones
             bool matriculaExistente = ListaCamiones.Any(c => c.Matricula == NuevoCamion.Matricula);
-            Cliente idClienteExiste = await servicioClienteAPI.BuscarClientePorId(idClienteBuscar);
+
+            Cliente idClienteExiste = await servicioClienteAPI.BuscarClientePorId();
 
             // Si la matrícula ya existe en la lista, mostrar un mensaje y salir del método
             if (matriculaExistente)
@@ -133,12 +134,12 @@ namespace Diagnosis.Modelos
                 MessageBox.Show("Ya existe un camión con la misma matrícula.", "Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
             }
-            if(idClienteBuscar != null && idClienteExiste == null)
+            if (idClienteBuscar != null && idClienteExiste == null)
             {
                 MessageBox.Show("No existe un cliente con ese ID.", "Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
             }
-            if(idClienteBuscar == null)
+            if (idClienteBuscar == null)
             {
                 MessageBox.Show("Formato de ID incorrecto.", "Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
@@ -214,27 +215,21 @@ namespace Diagnosis.Modelos
             }
             else
             {
-                try
-                {
-                    // Realizar la solicitud para buscar el camión por matrícula
-                    Camion camionEncontrado = await servicioCamionAPI.BuscarCamionPorMatricula(MatriculaBusqueda);
+                // Realizar la solicitud para buscar el camión por matrícula
+                Camion camionEncontrado = await servicioCamionAPI.BuscarCamionPorMatricula();
 
-                    // Verificar si se encontró un camión
-                    if (camionEncontrado != null)
-                    {
-                        // Limpiar la lista actual de camiones y agregar el camión encontrado
-                        ListaCamiones.Clear();
-                        ListaCamiones.Add(camionEncontrado);
-                    }
-                    else
-                    {
-                        MessageBox.Show("No se encontró ningún camión con la matrícula especificada.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
-                    }
-                }
-                catch (Exception ex)
+                // Verificar si se encontró un camión
+                if (camionEncontrado != null)
                 {
-                    MessageBox.Show("Error al buscar camión: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    // Limpiar la lista actual de camiones y agregar el camión encontrado
+                    ListaCamiones.Clear();
+                    ListaCamiones.Add(camionEncontrado);
                 }
+                else
+                {
+                    MessageBox.Show("No se encontró ningún camión con la matrícula especificada.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+
             }
         }
     }

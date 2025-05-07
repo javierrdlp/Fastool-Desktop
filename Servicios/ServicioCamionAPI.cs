@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace Diagnosis.Servicios
 {
-    public class ServicioCamionAPI: ObservableObject
+    public class ServicioCamionAPI: ObservableRecipient
     {
-        private readonly string baseUrl = "http://localhost:8080/fasttool/datos/camiones";
+        private readonly string baseUrl = "http://tomcatj.northeurope.cloudapp.azure.com:8080/fasttool/datos/camiones";
         ServicioClienteAPI servicioClienteAPI = new ServicioClienteAPI();
 
         private Camion camionServicio;
@@ -77,7 +77,7 @@ namespace Diagnosis.Servicios
                 CamionServicio = WeakReferenceMessenger.Default.Send<NuevoCamionMessage>();
                 IdCliente = WeakReferenceMessenger.Default.Send<IdClienteBuscarMessage>();
                 // Buscar el cliente por su ID
-                var cliente = await servicioClienteAPI.BuscarClientePorId(IdCliente);
+                var cliente = await servicioClienteAPI.BuscarClientePorId();
 
                 
                     using (var httpClient = new HttpClient())
@@ -152,14 +152,14 @@ namespace Diagnosis.Servicios
             }
         }
         
-        public async Task<Camion> BuscarCamionPorMatricula(string matricula)
+        public async Task<Camion> BuscarCamionPorMatricula()
         {
             try
             {
-                //MatriculaBusqueda = WeakReferenceMessenger.Default.Send<MatriculaBuscarMessage>();
+                MatriculaBusqueda = WeakReferenceMessenger.Default.Send<MatriculaBuscarMessage>();
                 using (var httpClient = new HttpClient())
                 {
-                    var response = await httpClient.GetAsync($"{baseUrl}/matricula/{matricula}");
+                    var response = await httpClient.GetAsync($"{baseUrl}/matricula/{matriculaBusqueda}");
                     if (response.IsSuccessStatusCode)
                     {
                         var jsonString = await response.Content.ReadAsStringAsync();

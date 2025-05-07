@@ -1,4 +1,6 @@
-﻿using Diagnosis.Clases;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Messaging;
+using Diagnosis.Clases;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -11,11 +13,18 @@ using System.Threading.Tasks;
 
 namespace Diagnosis.Servicios
 {
-    public class ServicioReparacionAPI
+    public class ServicioReparacionAPI: ObservableRecipient
     {
-        private readonly string baseUrl = "http://localhost:8080/fasttool/datos/reparaciones";
+        private readonly string baseUrl = "http://tomcatj.northeurope.cloudapp.azure.com:8080/fasttool/datos/reparaciones";
 
-       public async Task<ObservableCollection<Reparacion>> ObtenerReparaciones()
+        private string matriculaBusqueda;
+        public string MatriculaBusqueda
+        {
+            get { return matriculaBusqueda; }
+            set { SetProperty(ref matriculaBusqueda, value); }
+        }
+
+        public async Task<ObservableCollection<Reparacion>> ObtenerReparaciones()
         {
             ObservableCollection<Reparacion> listaReparaciones = new ObservableCollection<Reparacion>();
             try
@@ -29,12 +38,13 @@ namespace Diagnosis.Servicios
                         var reparacionesApi = JsonConvert.DeserializeObject<List<ReparacionDTO>>(jsonString);
                         foreach (var rep in reparacionesApi)
                         {
-                            // Definir el formato de fecha y hora esperado
-                            string formatoFechaHora = "yyyy-MM-ddTHH:mm:ssZ'['UTC']'";
+                            // Limpiar la parte "[UTC]" si está presente
+                            string horaInicioLimpia = rep.HoraInicio.Replace("[UTC]", "");
+                            string horaFinLimpia = rep.HoraFin?.Replace("[UTC]", "");
 
-                            // Convertir la cadena de fecha y hora al objeto DateTime en UTC
-                            DateTime horaInicioUtc = DateTime.ParseExact(rep.HoraInicio, formatoFechaHora, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal | DateTimeStyles.AdjustToUniversal);
-                            DateTime? horaFinUtc = string.IsNullOrEmpty(rep.HoraFin) ? null : DateTime.ParseExact(rep.HoraFin, formatoFechaHora, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal | DateTimeStyles.AdjustToUniversal);
+                            // Convertir las fechas directamente
+                            DateTime horaInicioUtc = DateTime.Parse(horaInicioLimpia, null, DateTimeStyles.AdjustToUniversal);
+                            DateTime? horaFinUtc = string.IsNullOrEmpty(horaFinLimpia) ? null : DateTime.Parse(horaFinLimpia, null, DateTimeStyles.AdjustToUniversal);
 
                             // Crear el objeto Reparacion con las fechas y horas en UTC
                             var reparacion = new Reparacion
@@ -64,25 +74,27 @@ namespace Diagnosis.Servicios
         }
 
 
-        public async Task<ObservableCollection<Reparacion>> ReparacionesPorMatricula(string matricula)
+        public async Task<ObservableCollection<Reparacion>> ReparacionesPorMatricula()
         {
             ObservableCollection<Reparacion> reparacionesPorMatricula = new ObservableCollection<Reparacion>();
+            MatriculaBusqueda = WeakReferenceMessenger.Default.Send<MatriculaBuscarMessage>();
             try
             {
                 using (var httpClient = new HttpClient())
                 {
-                    var response = await httpClient.GetAsync($"{baseUrl}/matriculas/{matricula}");
+                    var response = await httpClient.GetAsync($"{baseUrl}/matriculas/{matriculaBusqueda}");
                     if (response.IsSuccessStatusCode)
                     {
                         var jsonString = await response.Content.ReadAsStringAsync();
                         var reparacionesDTO = JsonConvert.DeserializeObject<List<ReparacionDTO>>(jsonString);
                         foreach (var reparacionDTO in reparacionesDTO)
                         {
-                            string formatoFechaHora = "yyyy-MM-ddTHH:mm:ssZ'['UTC']'";                           
+                            // Limpiar "[UTC]" y convertir fechas como UTC
+                            string horaInicioLimpia = reparacionDTO.HoraInicio.Replace("[UTC]", "");
+                            string horaFinLimpia = reparacionDTO.HoraFin?.Replace("[UTC]", "");
 
-                            // Convertir la cadena de fecha y hora al objeto DateTime en UTC
-                            DateTime horaInicioUtc = DateTime.ParseExact(reparacionDTO.HoraInicio, formatoFechaHora, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal | DateTimeStyles.AdjustToUniversal);
-                            DateTime? horaFinUtc = string.IsNullOrEmpty(reparacionDTO.HoraFin) ? null : DateTime.ParseExact(reparacionDTO.HoraFin, formatoFechaHora, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal | DateTimeStyles.AdjustToUniversal);
+                            DateTime horaInicioUtc = DateTime.Parse(horaInicioLimpia, null, DateTimeStyles.AdjustToUniversal);
+                            DateTime? horaFinUtc = string.IsNullOrEmpty(horaFinLimpia) ? null : DateTime.Parse(horaFinLimpia, null, DateTimeStyles.AdjustToUniversal);
 
                             var reparacion = new Reparacion
                             {
@@ -191,8 +203,9 @@ namespace Diagnosis.Servicios
                 using (var httpClient = new HttpClient())
                 {
                     var servicioCamionAPI = new ServicioCamionAPI();
+                    
                     // Obtener los detalles del camión basado en la matrícula
-                    var camion = await servicioCamionAPI.BuscarCamionPorMatricula(reparacion.Matricula.Matricula);
+                    var camion = await servicioCamionAPI.BuscarCamionPorMatricula();
 
                     // Verificar si se encontró un camión con la matrícula especificada
                     if (camion != null)

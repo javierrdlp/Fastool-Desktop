@@ -2131,11 +2131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\urulo\\Desktop\\Escritorio\\DOCUMENTACION\\FasTooL Sin Logo\\Diagnosis\\Diagnosis.csproj",
+      "projectUniqueName": "C:\\Users\\urulo\\Desktop\\Diagnosis\\Diagnosis.csproj",
       "projectName": "Diagnosis",
-      "projectPath": "C:\\Users\\urulo\\Desktop\\Escritorio\\DOCUMENTACION\\FasTooL Sin Logo\\Diagnosis\\Diagnosis.csproj",
+      "projectPath": "C:\\Users\\urulo\\Desktop\\Diagnosis\\Diagnosis.csproj",
       "packagesPath": "C:\\Users\\urulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\urulo\\Desktop\\Escritorio\\DOCUMENTACION\\FasTooL Sin Logo\\Diagnosis\\obj\\",
+      "outputPath": "C:\\Users\\urulo\\Desktop\\Diagnosis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\urulo\\AppData\\Roaming\\NuGet\\NuGet.Config",

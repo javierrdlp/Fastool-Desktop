@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace Diagnosis.Servicios
 {
-    public class ServicioClienteAPI : ObservableObject
+    public class ServicioClienteAPI : ObservableRecipient
     {
-        private readonly string baseUrl = "http://localhost:8080/fasttool/datos/clientes";
+        private readonly string baseUrl = "http://tomcatj.northeurope.cloudapp.azure.com:8080/fasttool/datos/clientes";
 
         private Cliente clienteServicio;
         public Cliente ClienteServicio
@@ -153,15 +153,12 @@ namespace Diagnosis.Servicios
 
             return null;
         }
-        public async Task<Cliente> BuscarClientePorId(int? id)
+        public async Task<Cliente> BuscarClientePorId()
         {
             try
             {
                 IdCliente = WeakReferenceMessenger.Default.Send<IdClienteBuscarMessage>();
-                if(IdCliente == null)
-                {
-                    IdCliente = id;
-                }
+                
                 using (var httpClient = new HttpClient())
                 {
                     var response = await httpClient.GetAsync($"{baseUrl}/{IdCliente}");

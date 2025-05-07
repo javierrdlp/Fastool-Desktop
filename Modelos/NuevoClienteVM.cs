@@ -222,9 +222,10 @@ namespace Diagnosis.Modelos
             else
             {
                  Cliente clienteEncontrado = await servicioClienteAPI.BuscarClientePorCif();
-                ListaClientes.Clear(); // Limpiar la lista actual de clientes
+               
                 if (clienteEncontrado != null)
                 {
+                    ListaClientes.Clear(); // Limpiar la lista actual de clientes
                     ListaClientes.Add(clienteEncontrado);
                 }
                 else

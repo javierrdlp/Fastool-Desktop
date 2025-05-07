@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Messaging;
 using Diagnosis.Clases;
 using Diagnosis.Servicios;
 using System;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -31,7 +32,16 @@ namespace Diagnosis.Modelos
             get { return idClienteBuscar; }
             set { SetProperty(ref idClienteBuscar, value); }
         }
+        private ObservableCollection<Cliente> listaClientes;
 
+        public ObservableCollection<Cliente> ListaClientes
+        {
+            get { return listaClientes; }
+            set
+            {
+                SetProperty(ref listaClientes, value);
+            }
+        }
         public RelayCommand ModificarCamionCommand { get; }
 
         public ModificarCamionVM()
@@ -40,8 +50,9 @@ namespace Diagnosis.Modelos
             ModificarCamionCommand = new RelayCommand(ModificarCamion);
             servicioCamionAPI = new ServicioCamionAPI();
             servicioClienteAPI = new ServicioClienteAPI();
-            //Para que aparezca el numero a la hora de modificar, si noestaría vacío.
-            IdClienteBuscar = CamionSeleccionado?.IdCliente.Id;
+            ListaClientes = new ObservableCollection<Cliente>();
+            //Para que aparezca el numero a la hora de modificar, si no, estaría vacío.
+            IdClienteBuscar = CamionSeleccionado?.IdCliente?.Id;
 
             WeakReferenceMessenger.Default.Register<ModificarCamionVM, CamionSeleccionadoMessage>(this, (r, m) =>
             {
@@ -58,18 +69,20 @@ namespace Diagnosis.Modelos
                     m.Reply(IdClienteBuscar);
                 }
             });
+            CargarClientes();
 
         }
-
+        private async Task CargarClientes()
+        {
+            ListaClientes = await servicioClienteAPI.ObtenerClientes();
+        }
         public async void ModificarCamion()
         {
             try
             {
-
-                bool clienteExistente = await VerificarExistenciaCliente(); 
+                bool clienteExiste = VerificarExistenciaCliente();               
                 
-
-                if (!clienteExistente)
+                if (!clienteExiste)
                 {
                     MessageBox.Show("El ID del cliente especificado no existe.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
@@ -81,6 +94,7 @@ namespace Diagnosis.Modelos
                 if (exito)
                 {
                     MessageBox.Show("Camión modificado con éxito.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                   
                     var window = Application.Current.Windows.OfType<Window>().SingleOrDefault(w => w.IsActive);
                     window?.Close();
                 }
@@ -97,21 +111,20 @@ namespace Diagnosis.Modelos
             }
         }
 
-        private async Task<bool> VerificarExistenciaCliente()
+        private bool VerificarExistenciaCliente()
         {
             try
             {
-                Cliente cliente = await servicioClienteAPI.BuscarClientePorId(IdClienteBuscar);
-
-                if (cliente != null)
+                foreach (var cliente in ListaClientes)
                 {
-                    CamionSeleccionado.IdCliente = cliente;
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                    if (cliente.Id == IdClienteBuscar)
+                    {
+                        CamionSeleccionado.IdCliente = cliente;
+                        return true;
+                    }
+                }                
+                return false;
+                
             }
             catch (Exception ex)
             {
