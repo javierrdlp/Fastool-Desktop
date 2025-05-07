@@ -53,3 +53,6 @@ artifacts/
 *.userosscache
 *.suo
 *.userprefs
+
+# Ignorar archivos de Visual Studio
+.vs/
