@@ -1,6 +1,7 @@
 # Fastool
 
-Fastool consists of two applications: a mobile app and a desktop app. This is the mobile version, designed to quickly and easily check repair information and status. It complements the desktop version.
+Fastool consists of two applications: a mobile app and a desktop app. This is the desktop version, designed to provide a simple and easy-to-use interface for managing clients, trucks, and repairs. 
+
 ## Table of Contents
 - [Appearance](#appearance)
 - [Features](#features)
@@ -13,11 +14,14 @@ Fastool consists of two applications: a mobile app and a desktop app. This is th
 <img src="https://github.com/user-attachments/assets/672fecec-cb68-4b5c-8b6e-8efbf99b1681" width="200" />
 <img src="https://github.com/user-attachments/assets/f6b55bb6-01fb-461a-a6a3-9db25fcfc3e3" width="200" />
 
+
+
 ## Features
 
-- Check the information and status of repairs.
-- Sort repairs by date or repair status.
-- Search for repairs by number plate.
+- CRUD operations for clients, trucks, and repairs.
+- Generation of a customizable PDF summary for each repair.  
+- Help document included in the desktop application explaining its features.
+- Communication with a database through a REST API, both in Azure.
 
 ## The Process
 
