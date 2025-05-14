@@ -9,10 +9,10 @@ Fastool consists of two applications: a mobile app and a desktop app. This is th
 
 ## Appearance
 
-<img src="https://github.com/user-attachments/assets/0571df23-bd18-462b-ba66-07f207e350f0" width="200" />
-<img src="https://github.com/user-attachments/assets/ba9e6417-c0c7-425c-aeb9-5ccc031f053d" width="200" />
-<img src="https://github.com/user-attachments/assets/672fecec-cb68-4b5c-8b6e-8efbf99b1681" width="200" />
-<img src="https://github.com/user-attachments/assets/f6b55bb6-01fb-461a-a6a3-9db25fcfc3e3" width="200" />
+| <img src="https://github.com/user-attachments/assets/04066a06-cd11-4e4a-89d7-2c75b3e73dca" width="200"/> | <img src="https://github.com/user-attachments/assets/c637dd64-62d4-4375-96d7-3780dd36bcc0" width="500"/> | <img src="https://github.com/user-attachments/assets/c5f310a0-8fbc-423c-bea2-6b206ba902c6" width="500"/> |
+|---|---|---|
+| <img src="https://github.com/user-attachments/assets/6e36bb10-9576-4ad2-b005-a9ae8ff1ed50" width="500"/> | <img src="https://github.com/user-attachments/assets/fd842763-9423-4fd1-9e06-c62d9aed6748" width="500"/> | <img src="https://github.com/user-attachments/assets/eedf9066-a398-47a5-bd6c-f5cc07e19764" width="500"/> |
+
 
 
 
