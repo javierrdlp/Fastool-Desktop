@@ -14,6 +14,10 @@ Fastool consists of two applications: a mobile app and a desktop app. This is th
 | <img src="https://github.com/user-attachments/assets/c5f310a0-8fbc-423c-bea2-6b206ba902c6" width="500"/> | <img src="https://github.com/user-attachments/assets/6e36bb10-9576-4ad2-b005-a9ae8ff1ed50" width="500"/> |
 | <img src="https://github.com/user-attachments/assets/fd842763-9423-4fd1-9e06-c62d9aed6748" width="500"/> | <img src="https://github.com/user-attachments/assets/eedf9066-a398-47a5-bd6c-f5cc07e19764" width="500"/> |
 
+PDF reapair example:
+
+<img src="https://github.com/user-attachments/assets/f0d7501c-fcb9-4292-a364-f1c6093ca85b" width="400"/>
+
 
 ## Features
 
